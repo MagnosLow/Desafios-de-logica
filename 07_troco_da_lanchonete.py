@@ -4,4 +4,4 @@ Desenvolva um sistema que receba o valor do lanche e o valor que Daniel pagou e 
 valor = float(input("valor do lanche: "))
 lanche = float(input("qual o seu valor: "))
 print(lanche - valor)
-print(f"aqui está seu troco: {lanche - valor}")
+print(f"aqui está seu troco: {round(lanche - valor)}")
